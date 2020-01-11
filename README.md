@@ -1,4 +1,4 @@
-joineRML <img src="man/figures/hexlogo.svg" width = "175" height = "200" align="right" />
+joineRML <img src="man/figures/logo.svg" width = "175" height = "200" align="right" />
 =====================================================================================
 
 # ACMEeqtl: Estimation of Interpretable eQTL Effect Sizes Using a Log of Linear Model
