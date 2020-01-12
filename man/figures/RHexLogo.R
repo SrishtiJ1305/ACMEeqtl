@@ -1,7 +1,7 @@
 library(hexSticker)
 library("ggplot2")
 
-#This is a copied code from the ACMEeqtl Package on GitHub we exported this plot as a image file and added it to our HexLogo
+#This is a copied code from the ACMEeqtl Package on GitHub I exported this plot as a png file (Rplotforlogo.png) and svg file (PlotForLogo.svg)and added it to my HexLogo
 logo= {StatLm <- ggproto("StatLm", Stat, 
                   required_aes = c("x", "y"),
                   
@@ -37,7 +37,7 @@ imgurl=system.file("C:\\Users\\srish\\Desktop\\Rplotforlogo.png", package="hexst
 sticker("C:\\Users\\srish\\Desktop\\Rplotforlogo.png", package="ACMEeqtl", p_size=15, s_x=1, s_y=.8, s_width=.6,
         filename="logo.png")
 
-imgurl=system.file("C:\\Users\\srish\\Desktop\\Rplotforlogo.png", package="hexsticker")
+imgurl=system.file("C:\\Users\\srish\\Desktop\\PlotForLogo.svg", package="hexsticker")
 sticker("C:\\Users\\srish\\Desktop\\PlotForLogo.svg", package="ACMEeqtl", p_size=8, s_x=1, s_y=.8, s_width=.5,
         filename="logo.svg")
 
